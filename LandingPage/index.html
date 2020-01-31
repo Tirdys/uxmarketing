@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>One Page Wonder - Start Bootstrap Template</title>
+  <title>Landing Page / Diététicienne </title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">TIFFANY-SKYE-VARENNE / LANDING PAGE</a>
+      <a class="navbar-brand" href="#">TIFFANY-SKYE-VARENNE / VOTRE PAGE PERSO</a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
       </div>
     </div>
@@ -35,7 +35,7 @@
 
   <header class="masthead text-center text-white">
     <img src="img/banderole.png" class="img-fluid" alt="Responsive image" max-width="100%">
-    <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Accéder au formulaire</a>
+    <a href="#form" class="btn btn-primary btn-xl rounded-pill mt-5">Accéder au formulaire</a>
   </header>
 
   <section>
@@ -73,7 +73,26 @@
       </div>
     </div>
   </section>
+<div class="container fluid">
+<h2>Me contacter</h2>
+  <form id="form" class="formulaire">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Adresse Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrer email">
+      <small id="emailHelp" class="form-text text-muted">Merci de mettre une adresse courante</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Envoyer moi un message</label>
+      <input type="message" class="form-control" id="exampleInputPassword1" placeholder="message">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">S'inscrire à la newsletter</label>
+    </div>
 
+    <button type="submit" class="btn btn-primary">Envoyer</button>
+  </form>
+</div>
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
